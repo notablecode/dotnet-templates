@@ -3,7 +3,7 @@
   <PropertyGroup>
     <!-- The package metadata. Fill in the properties marked as TODO below -->
     <!-- Follow the instructions on https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
-    <PackageId>NotableCode.Project.Templates</PackageId>
+    <PackageId>NotableCode.Dotnet.Templates</PackageId>
     <PackageVersion>1.0</PackageVersion>
     <Title>Notable Code Project Templates</Title>
     <Authors>Brian Irwin</Authors>
