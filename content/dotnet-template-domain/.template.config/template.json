@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Brian Irwin",
+    "classifications": [ "Common", "Code" ],
+    "identity": "NC.Template.Dotnet.Domain",
+    "name": "Notable Code Dotnet Template for Domain",
+    "shortName": "nc-dotnet-domain",
+	"sourceName": "nc-dotnet-domain",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+}

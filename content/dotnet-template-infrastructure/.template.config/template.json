@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Brian Irwin",
+    "classifications": [ "Common", "Code" ],
+    "identity": "NC.Template.Dotnet.Infrastructure",
+    "name": "Notable Code Dotnet Template for Infrastructure",
+    "shortName": "nc-dotnet-infrastructure",
+	"sourceName": "nc-dotnet-dinfrastructure",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+}
