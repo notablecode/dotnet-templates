@@ -1,0 +1,30 @@
+name: .NET Pack Templates
+
+# Trigger the workflow only manually
+on:
+  workflow_dispatch:  # Allows manual trigger from GitHub Actions
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.x'  # Set to .NET version 8.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Pack the templates
+      run: dotnet pack --configuration Release --no-build --output ./nupkg
+
+    - name: Upload the .nupkg artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: package
+        path: ./nupkg/*.nupkg
