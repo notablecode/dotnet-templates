@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Brian Irwin",
+    "classifications": [ "Common", "Code" ],
+    "identity": "NC.Template.Dotnet.WebUI",
+    "name": "Notable Code Dotnet Template for WebUI",
+    "shortName": "nc-dotnet-webui",
+	"sourceName": "nc-dotnet-webui",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+}
